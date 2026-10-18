@@ -49,11 +49,11 @@ button {
   place-items: center;
   border-radius: 12px;
   background: #e8f0e8;
-  color: #42684b;
+  color: #4A7DDB;
   font-size: 1.5rem;
 }
 
-.tool-nav {
+.mode-nav {
   display: flex;
   gap: 6px;
   padding: 5px;
@@ -74,11 +74,11 @@ button {
 }
 
 .nav-button.active {
-  background: #42684b;
+  background: #4A7DDB;
   color: #ffffff;
 }
 
-.tool-panel {
+.mode-panel {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -90,16 +90,16 @@ button {
 
 .eyebrow {
   margin: 0 0 18px;
-  color: #64816a;
+  color: #4A7DDB;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.16em;
 }
 
-.tool-panel h1 {
+.mode-panel h1 {
   margin: 0;
   color: #292524;
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-size: clamp(2.5rem, 4.5vw, 4rem);
   font-weight: 600;
   letter-spacing: -0.07em;
 }
@@ -108,7 +108,7 @@ button {
   max-width: 440px;
   margin: 18px 0 0;
   color: #78716c;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -126,7 +126,7 @@ button {
 }
 
 .note-placeholder {
-  color: #42684b;
+  color: #4A7DDB;
   font-size: 6rem;
   font-weight: 500;
   line-height: 1;
@@ -135,7 +135,7 @@ button {
 
 .frequency {
   margin-top: 12px;
-  color: #64816a;
+  color: #4A7DDB;
   font-size: 0.95rem;
   font-variant-numeric: tabular-nums;
 }
@@ -148,7 +148,7 @@ button {
 }
 
 .tempo-value {
-  color: #42684b;
+  color: #4A7DDB;
   font-size: clamp(5rem, 12vw, 8rem);
   font-weight: 500;
   letter-spacing: -0.08em;
@@ -167,7 +167,7 @@ button {
   padding: 14px 22px;
   border: none;
   border-radius: 999px;
-  background: #42684b;
+  background: #4A7DDB;
   color: #ffffff;
   font: inherit;
   font-weight: 600;
@@ -208,7 +208,7 @@ button {
     justify-content: center;
   }
 
-  .tool-nav {
+  .mode-nav {
     justify-content: center;
   }
 
@@ -216,7 +216,7 @@ button {
     flex: 1;
   }
 
-  .tool-panel {
+  .mode-panel {
     padding: 64px 0;
   }
 
